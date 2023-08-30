@@ -1,0 +1,33 @@
+{
+  "lukes": [
+    {
+      "id": 1,
+      "title": "Cargo Beje",
+      "image": "https://static3.tcdn.com.br/img/img_prod/873120/kit_2_calcas_cargo_masculina_sem_punho_escolha_as_cores_1365_1_274263a751d217664897e807f0043f96.jpg",
+      "price": "R$ 238.98",
+      "url": "https://www.lojaverse.com.br/calca-verse-jogger-cargo"
+    },
+    {
+      "id": 2,
+      "title": "Camiseta Compton",
+      "image": "https://global.cdn.magazord.com.br/compsupply/img/2023/07/produto/1434/23.jpg?ims=fit-in/635x865/filters:fill(white)",
+      "price": "R$ 69.98",
+      "url": "https://www.lojaverse.com.br/calca-verse-jogger-cargo"
+    },
+    {
+      "id": 3,
+      "title": "Corta Vento",
+      "image": "https://approve.fbitsstatic.net/img/p/corta-vento-anorak-approve-x-nba-lakers-roxo-73305/281758-1.jpg?w=1071&h=1622&v=no-change&qs=ignore",
+      "price": "R$ 300.98",
+      "url": "https://www.lojaverse.com.br/calca-verse-jogger-cargo"
+    },
+    {
+      "id": 4,
+      "title": "Camiseta Compton",
+      "image": "https://global.cdn.magazord.com.br/compsupply/img/2023/07/produto/1420/9.jpg?ims=fit-in/635x865/filters:fill(white)",
+      "price": "R$ 69.98",
+      "url": "https://www.lojaverse.com.br/calca-verse-jogger-cargo"
+    }
+   
+  ]
+}
