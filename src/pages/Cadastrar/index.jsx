@@ -46,22 +46,22 @@ function Cadastrar(){
         <form onSubmit={onSubmit}>
             <div className={styles.booksFormGroup}>
                 <label htmlFor="title">Titulo</label>
-                <input type="text"  id='title' name='title' onChange={onChange}/>
+                <input type="text"  id='1' name='title' onChange={onChange}/>
 
             </div>
             <div className={styles.booksFormGroup}>
                 <label htmlFor="image">image</label>
-                <input type="text"  id='image' name='image' onChange={onChange}/>
+                <input type="text"  id='2' name='image' onChange={onChange}/>
 
             </div>
             <div className={styles.booksFormGroup}>
                 <label htmlFor="price">price</label>
-                <input type="text"  id='price' name='title' onChange={onChange}/>
+                <input type="text"  id='3' name='price' onChange={onChange}/>
 
             </div>
             <div className={styles.booksFormGroup}>
                 <label htmlFor="url">url</label>
-                <input type="text"  id='url' name='url' onChange={onChange}/>
+                <input type="text"  id='4' name='url' onChange={onChange}/>
 
             </div>
             <button type='submit'>Salvar</button>
