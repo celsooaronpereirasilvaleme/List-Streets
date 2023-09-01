@@ -2,4 +2,15 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
+
 }
+.div{
+    top:165px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    
+}
+
+
+   

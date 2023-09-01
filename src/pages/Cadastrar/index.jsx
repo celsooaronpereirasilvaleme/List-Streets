@@ -41,6 +41,7 @@ function Cadastrar(){
 
     return(
         <>
+        
         <h1>Cadastrar</h1>
         <form onSubmit={onSubmit}>
             <div className={styles.booksFormGroup}>
@@ -66,6 +67,7 @@ function Cadastrar(){
             <button type='submit'>Salvar</button>
 
         </form>
+        
         </>
     )
 }

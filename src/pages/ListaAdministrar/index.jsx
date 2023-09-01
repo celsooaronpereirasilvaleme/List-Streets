@@ -10,14 +10,14 @@ import ListaLukesAdm from './../../components/ListLukesAdm';
 
 const Block = styled.div`
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 15px;
+font-size: 20px;
 text-align:center;
 color: #837d7d;
 `
 const ListContainer = styled.div`
   
   position: relative;
-  left: 500px;
+  left: 550px;
   width: 300px;
   border-radius: 15px;
   /* background-color: #c0b8b8; */

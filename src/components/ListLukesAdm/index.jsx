@@ -7,8 +7,9 @@ import api from '../../services/api';
 const Imagem = styled.img`
     width: 225px;
     height: 250px;
+    left: -200px;
     position: relative;
-    padding: 15px;
+    /* padding: 15px; */
     border-radius: 25px;
     box-shadow:  16px -25px teal;
     border: 2px solid #837d7d;
@@ -23,7 +24,7 @@ const ItemContainer = styled.div`
 const Title = styled.div`
 font-size: 15px;
 color: #0b0b0b;
-left:300px;
+left:150px;
 top: -247px;
 position: relative;
 
@@ -31,7 +32,7 @@ position: relative;
 const Price = styled.div`
 color: #131212;
 font-size: 9px;
-left: 300px;
+left: 150px;
 top: -240px;
 position: relative;
 `
@@ -42,7 +43,7 @@ font-size: 10px;
 top: -300px;
 color: white;
 position: relative;
-left: 600px;
+left: 450px;
 margin-top: 15px;
 border-radius: 7px;
 text-decoration: none;

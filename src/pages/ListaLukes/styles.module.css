@@ -2,9 +2,10 @@
     height: 42px;
     border: 1px solid #ccc;
     border-radius: 9px;
-    width: 505px;
+    width: 1010px;
     position: relative;
-    left: 10px;
+    left: 300px;
+    display: flex;
     margin-bottom: 20px;
     padding: 0 10px;
     font-size: 16px;

@@ -1,10 +1,10 @@
-import React, {useState} from 'react';
+import  React, { useState, useEffect } from 'react';
 import api from '../../services/api'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate,  useParams} from 'react-router-dom'
 import styles from './styles.module.css'
 
 
-const initalValue = {
+const initialValue = {
 
     title: '',
     image: '',
@@ -15,7 +15,7 @@ const initalValue = {
 
 function Editar(){
 
-  const [values, setValues] = useState(initalValue);
+  const [values, setValues] = useState(initialValue);
 
   const navigate = useNavigate();
 
@@ -35,29 +35,30 @@ function Editar(){
    
 
 
-  function onSubmit(ev){
-    ev.preventDefault(); 
+  function onSubmit(evento){
+    evento.preventDefault(); 
 
-    const url = '/lukes';
+    
 
-    api.post(url, values)
+    api.put(url, values)
     .then (() => {
-        navigate('adiministrar');
+        navigate('/administrar');
     })
 
   }
   function onChange(ev){
-    const {name, value} = ev.target 
+    const {name, value } = ev.target 
     //console.log({name, value});
 
-    setValues({ ...values, [name]: value})
+    setValues({ ...values, [name]:value})
     //console.log(values);
     
   }
 
     return(
         <>
-        <h1>Editar</h1>
+        <div className={styles.div}>
+            <h1>Editar</h1>
         <form onSubmit={onSubmit}>
             <div className={styles.booksFormGroup}>
                 <label htmlFor="title">Titulo</label>
@@ -79,9 +80,10 @@ function Editar(){
                 <input type="text"  id='url' name='url' value={values.url} onChange={onChange}/>
 
             </div>
-            <button type='submit'>Salvar</button>
 
         </form>
+            <button type='submit'>Salvar</button>
+        </div>
         </>
     )
 }

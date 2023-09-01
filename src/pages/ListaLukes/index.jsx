@@ -7,9 +7,9 @@ import styles from './styles.module.css';
 
 const Block = styled.h1`
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 9px;
+font-size: 15px;
 text-align:center;
-color: black;
+color: #ada4a4;
 `
 const ListContainer = styled.div`
   display: flex;
@@ -17,12 +17,14 @@ const ListContainer = styled.div`
   flex-direction: row;
   position: relative;
   align-items: center;
-  flex-wrap: wrap;
-  left: 630px;
+  margin-top: 15px;
+  padding-left: 15px;
+  left: 530px;
   border-radius: 8px;
   justify-content: center;
-  background-color: #bcbbbb;
-  padding: 10px;
+  /* background-color: #bcbbbb; */
+  padding: 15px;
+
 `;
 
 

@@ -1,11 +1,10 @@
 .listaSearchInput{
-    
     height: 42px;
     border: 1px solid #ccc;
     border-radius: 9px;
-    width: 494px;
+    width: 464px;
     position: relative;
-    left: -62px;
+    left: -90px;
     margin-bottom: 20px;
     padding: 20px;
     font-size: 16px;
